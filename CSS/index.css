@@ -1,0 +1,189 @@
+
+
+
+
+:root{
+--main-font: sans-serif;
+--main-color:#FE4426;
+--main-color-rgb:254, 68, 38;
+--second-color:#4A5565;
+--second-color-rgb:74, 85, 101;
+--third-color:#ffedd4;
+--fourth-color:#FFB86A;
+
+
+}
+
+
+
+.font-sansSerif{
+  font-family: var(--main-font);
+
+}
+.text-grey{
+  color: var(--second-color);
+}
+.text-orange{
+  color: var(--main-color);
+}
+
+.bg-orange-light{
+    background-color: var(--fourth-color);
+
+}
+.bg-orange{
+  background-color: var(--main-color);
+}
+.bg-light-orange{
+  background-color: var(--third-color) ;
+}
+
+.icon-circle {
+  width: 50px;     
+  height: 50px; 
+   
+
+}
+
+.bg-gradient-orange{
+  background: linear-gradient(90deg, #FF6900, #f84737);
+}
+
+.fw-extraBolder{
+  font-weight: 700;
+}
+.fw-extraBolder2{
+  font-weight: 900;
+}
+.fs-7{
+  font-size: 14px;
+}
+.fs-8{
+  font-size: 12px;
+}
+
+nav img{
+width: 40px;
+height: 40px;
+}
+nav .btn.bt1:hover
+ {
+  --bs-secondary-rgb:var(--main-color-rgb);
+}
+  
+
+
+nav .bt1.text-secondary{
+  --bs-secondary-rgb:var(--second-color-rgb);
+}
+
+/*end navbar*/
+
+.recipe-image-wrapper {
+  
+    height: 100%; 
+    width: 100%;
+    overflow: hidden; 
+}
+
+.recipe-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+section .top-content{
+  left: 1.8rem;
+  top:1.6rem;
+}
+section .bottom-content{
+bottom: 1.7rem;
+ left: 50%;
+  transform: translateX(-50%);
+   min-width: 90%;
+}
+section .bottom-content .text-danger{
+  --bs-danger-rgb:251, 44, 54;
+}
+
+section .bottom-content .text-orange{
+  color:#FF6900 ;
+}
+
+.right-side .nav-link{
+--bs-nav-link-color:#6A7282;
+}
+.right-side .nav-link:focus,
+.right-side .nav-link:hover {
+  --bs-nav-link-hover-color:#364153;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+color:#FF6900 ;
+background: transparent;
+border-bottom:2px  #FF6900  solid;
+border-radius: 0px;
+}
+.right-side-buttons button:hover{
+  background-color: #FFD7A8;
+}
+
+
+.right-side .tab-content .index .bg-orange{
+background-color: #FF6900;
+}
+
+
+.tab-pane .box-nutrition{
+  --bs-secondary-rgb:249,250,251;
+}
+
+
+.tab-pane .box-nutrition .text-pink{
+color:#E60076;
+}
+.tab-pane .box-nutrition .bg-pink{
+background-color:#FCE7F3;
+}
+.tab-pane .box-nutrition .text-success{
+    --bs-success-rgb:0,166,62;
+  
+}
+.text-darkYellow{
+  color: #E17100;
+}
+
+
+
+
+
+
+.index  {
+  height: 340px;           
+  overflow-y: auto;         
+}
+
+.index::-webkit-scrollbar {
+  width: 6px;
+}
+.index::-webkit-scrollbar-thumb {
+  background-color: #ffdbd2;
+  border-radius: 10px;
+}
+.mainbtn{
+  transition: transform .2s ease-in;
+}
+
+
+.mainbtn:hover{
+  transform: scale(1.04);
+background-image: linear-gradient(to right, #FF6500 , #E70007 );
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+  #pills-tab .nav-link {
+    font-size: 17px; 
+  }
+}

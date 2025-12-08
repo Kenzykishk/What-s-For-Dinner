@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+
+  </head>
+  <body class=" bg-warning bg-opacity-10 ">
+
+<!--Navbar-->
+<nav id="navId" class="navbar navbar-expand-lg bg-white pt-3 mb-3 shadow-sm ">
+  <div class="container-fluid container-sm ">
+    <a class="navbar-brand d-flex justify-content-center align-items-center ps-3 ps-lg-0 " href="#">
+    <i class="fa-solid fa-utensils text-white bg-orange icon-circle rounded-circle d-flex justify-content-center align-items-center me-2"></i>
+    <div class="d-flex flex-column ms-1">
+    <h1 class="fs-4 font-sansSerif fw-extraBolder m-0  ">What's For Dinner</h1>
+   <p class="font-sansSerif text-secondary fs-7 m-0 ">Your daily meal inspiration</p>
+    </div>
+   </a>
+
+    <button class="  border-0 rounded-4 btn bt1 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ <i class="fa-solid fa-bars fa-2x d-lg-none text-secondary"></i>
+    </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="nav-buttons d-flex flex-column flex-lg-row justify-content-start justify-content-lg-end align-items-lg-center align-items-start w-100 gap-2 mt-4 mt-lg-0">
+    <button class="btn bt1 text-secondary" type="button">
+      <i class="fa-solid fa-bookmark fa-lg"></i>
+      <span class="font-sansSerif text-secondary d-lg-none ms-1">Saved Recipes</span>
+    </button> 
+    <button class="btn bt1 text-secondary" type="button">
+      <i class="fa-solid fa-clock-rotate-left fa-lg"></i>
+            <span class="font-sansSerif text-secondary d-lg-none ms-1">Recent</span>
+    </button>
+    <button class="btn bt1 text-secondary" type="button">
+      <i class="fa-solid fa-gear fa-lg"></i>
+      <span class="font-sansSerif text-secondary d-lg-none ms-1">Settings</span>
+    </button>
+    <div class="d-flex flex-row align-items-center">
+  <figure class="d-flex  m-0 rounded-circle p-1 bg-orange-light">
+      <img src="images/avatar-4.jpg" alt="client-pic" class="img-fluid rounded-circle" >
+    </figure>
+    <span class="font-sansSerif text-secondary d-lg-none ms-2">Profile</span>
+    </div>
+  
+  </div>
+</div>
+
+
+
+
+  
+  </div>
+</nav>
+<!--end navbar-->
+
+<main>
+  <section   >
+    <div class="container-fluid container-sm px-2 pb-4   "  id="recipescontent">
+
+<div class=" rounded-4 overflow-hidden shadow-lg bg-white  ">
+  <div class="row g-0 " >
+
+    <!--left side-->
+  <div class="col-lg-5 ">
+    <figure class="position-relative recipe-image-wrapper  m-0">
+      <img src="images/photo-1546793665-c74683f339c1.jpg" alt="recipe1"  >
+
+      <div class="top-content bg-white rounded-5 w-auto d-inline-block px-3 py-2 position-absolute">
+        <i class="fa-solid fa-star text-warning"></i>
+        <span class="font-sansSerif fw-bold text-black ">4.4</span>
+        <span class="font-sansSerif text-secondary">(198 reviews)</span>
+      </div>
+
+<div class="bottom-content bg-white rounded-4 d-flex flex-row position-absolute  p-4 w-auto   text-center justify-content-around align-items-center ">
+
+<div>
+  <i class="fa-solid fa-clock text-orange fa-lg"></i>
+  <p class="font-sansSerif text-secondary m-0 fs-7"> Prep Time</p>
+  <p class="font-sansSerif text-black fw-bold m-0">15 min</p>
+</div>
+
+<div>
+  <i class="fa-solid fa-fire-burner text-danger fa-lg"></i>
+  <p class="font-sansSerif text-secondary m-0 fs-7"> Cook Time</p>
+  <p class="font-sansSerif text-black fw-bold m-0">0 min</p>
+</div>
+
+
+<div>
+  <i class="fa-solid fa-users text-primary fa-lg"></i>
+  <p class="font-sansSerif text-secondary m-0 fs-7"> Serving</p>
+  <p class="font-sansSerif text-black fw-bold m-0">2 people</p>
+</div>
+
+</div>
+
+    </figure>
+  </div>
+
+
+
+
+
+    <!--Right side-->
+  <div class="col-lg-7   ">
+  <div class="right-side d-flex flex-column h-100   px-3 px-lg-4 py-4 py-lg-5">
+    
+
+    <div>
+        <span class="font-sansSerif rounded-5 px-3 py-2 text-success bg-success bg-opacity-10 fw-semibold fs-8">Easy</span>
+        <span class="font-sansSerif rounded-5 px-3 py-2 text-primary bg-primary bg-opacity-10 fw-semibold fs-8 ms-2">Mediterranean</span>
+    </div>
+
+
+    <div class="d-flex justify-content-between align-items-start my-4  gap-md-0">
+      
+        <div>
+      <h2 class="font-sansSerif text-black fw-extraBolder2 m-0">Caesar Salad</h2>
+      <p class="text-secondary font-sansSerif fs-6 m-0">Classic salad with crispy romaine and creamy dressing</p>
+    </div>
+
+
+      <div class="d-flex gap-2 right-side-buttons">
+        <button class="bg-light-orange rounded-3 p-3 d-flex align-items-center justify-content-center border-0">
+          <i class="fa-solid fa-bookmark text-orange"></i>
+        </button>
+
+
+        <button class="bg-light-orange rounded-3 p-3 d-flex align-items-center justify-content-center border-0">
+          <i class="fa-solid fa-share-nodes text-orange"></i>
+        </button>
+        
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <ul class="nav nav-pills mb-3 w-100  flex-nowrap border-bottom pb-3 " id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+  <button class="nav-link  font-sansSerif fw-bold text-nowrap fs-8  active  " id="pills-ingredients-tab" data-bs-toggle="pill" data-bs-target="#pills-ingredients" type="button" role="tab" aria-controls="pills-ingredients" aria-selected="true">   <i class="fa-solid me-md-2 fa-list-check "></i>Ingredients</button>
+  </li>
+  <li class="nav-item" role="presentation">
+     <button class="nav-link  font-sansSerif fw-bold text-nowrap fs-8   " id="pills-instructions-tab" data-bs-toggle="pill" data-bs-target="#pills-instructions" type="button" role="tab" aria-controls="pills-instructions" aria-selected="false"> <i class="fa-solid me-md-2 fa-book-open "></i>Instructions</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    </i> <button class="nav-link  font-sansSerif fw-bold text-nowrap fs-8   " id="pills-nutritions-tab" data-bs-toggle="pill" data-bs-target="#pills-nutritions" type="button" role="tab" aria-controls="pills-nutritions" aria-selected="false"> <i class="fa-solid me-md-2 fa-chart-pie "></i>Nutritions</button>
+  </li>
+
+  <li class="nav-item" role="presentation">
+   <button class="nav-link  font-sansSerif fw-bold text-nowrap fs-8  " id="pills-chefstips-tab" data-bs-toggle="pill" data-bs-target="#pills-chefstips" type="button" role="tab" aria-controls="pills-chefstips" aria-selected="false">   <i class="fa-solid me-md-2 fa-lightbulb "></i>Chef's Tips</button>
+  </li> 
+  
+</ul>
+
+    <div class="tab-content flex-grow-1 " id="pills-tabContent">
+  <!--ingredients tab -->
+  <div class="tab-pane fade show active" id="pills-ingredients" role="tabpanel" aria-labelledby="pills-ingredients-tab" tabindex="0">
+    <div class=" index bg-warning bg-opacity-10 py-4 px-4 my-3 rounded-4">
+      <div class="d-flex flex-row mb-3">
+<div class="bg-orange rounded-circle   d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">1
+</div>
+  <span class="font-sansSerif text-secondary ms-2">1 large romaine lettuce</span>
+
+      </div>
+
+
+
+      <div class="d-flex flex-row mb-3">
+<div class="bg-orange rounded-circle   d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">2
+</div>
+  <span class="font-sansSerif text-secondary ms-2">1/2 cup Caesar dressing</span>
+
+      </div>
+
+
+
+
+        <div class="d-flex flex-row mb-3">
+<div class="bg-orange rounded-circle   d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">3
+</div>
+  <span class="font-sansSerif text-secondary ms-2">1/2 cup parmesan cheese, shaved</span>
+
+      </div>
+
+
+      <div class="d-flex flex-row mb-3">
+<div class="bg-orange rounded-circle   d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">4
+</div>
+  <span class="font-sansSerif text-secondary ms-2">1 cup croutons</span>
+
+      </div>
+
+
+
+        <div class="d-flex flex-row mb-3">
+<div class="bg-orange rounded-circle   d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">5
+</div>
+  <span class="font-sansSerif text-secondary ms-2">2 anchovy fillets (optional)</span>
+
+      </div>
+
+
+
+      <div class="d-flex flex-row mb-3">
+<div class="bg-orange rounded-circle   d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">6
+</div>
+  <span class="font-sansSerif text-secondary ms-2">Lemon wedges</span>
+      </div>
+
+
+      
+      <div class="d-flex flex-row mb-3">
+<div class="bg-orange rounded-circle   d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">7
+</div>
+  <span class="font-sansSerif text-secondary ms-2">Black pepper</span>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div> 
+  
+  <!--instructions tab -->
+  <div class="tab-pane fade" id="pills-instructions" role="tabpanel" aria-labelledby="pills-instructions-tab" tabindex="0">
+<div class=" index py-4 px-4 my-3  d-flex flex-column ">
+      <div class="d-flex flex-row  align-items-center mb-3">
+<div class="bg-orange p-4 rounded-4  d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">1
+</div>
+  <span class="font-sansSerif text-secondary ms-2">Wash and dry romaine lettuce thoroughly. Tear into bite-sized pieces.</span>
+
+      </div>
+
+
+
+      <div class="d-flex flex-row align-items-center mb-3">
+<div class="bg-orange p-4 rounded-4  d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">2
+</div>
+  <span class="font-sansSerif text-secondary ms-2">Place lettuce in a large salad bowl.</span>
+
+      </div>
+
+
+
+
+        <div class="d-flex flex-row  align-items-center mb-3">
+<div class="bg-orange p-4 rounded-4  d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">3
+</div>
+  <span class="font-sansSerif text-secondary ms-2">Add Caesar dressing and toss until evenly coated.</span>
+
+      </div>
+
+
+      <div class="d-flex flex-row align-items-center mb-3">
+<div class="bg-orange p-4 rounded-4  d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">4
+</div>
+  <span class="font-sansSerif text-secondary ms-2">Add croutons and half the parmesan cheese. Toss gently.</span>
+
+      </div>
+
+
+
+        <div class="d-flex flex-row align-items-center  mb-3">
+<div class="bg-orange p-4 rounded-4  d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">5
+</div>
+  <span class="font-sansSerif text-secondary ms-2">Top with remaining parmesan shavings and anchovies if using.</span>
+
+      </div>
+
+
+
+      <div class="d-flex flex-row   align-items-center mb-3">
+<div class="bg-orange p-4 rounded-4  d-flex  flex-row justify-content-center align-items-center  text-white font-sansSerif fw-bold" style="width: 25px; height: 25px;">6
+</div>
+  <span class="font-sansSerif text-secondary ms-2">Serve immediately with lemon wedges and fresh black pepper.</span>
+      </div>
+
+
+      
+    
+
+
+    </div>
+  </div>
+
+<!--Nutritions tab-->
+  <div class="tab-pane fade" id="pills-nutritions" role="tabpanel" aria-labelledby="pills-nutritions-tab" tabindex="0">
+ <div class="row gy-3">
+  <div class="col-md-6">
+ <div class=" box-nutrition bg-secondary  rounded-3 d-flex justify-content-between align-items-center px-3 py-2">
+
+<div class="d-flex flex-row">
+  <i class="fa-solid fa-fire text-orange bg-light-orange px-4 py-3 rounded-3 d-flex justify-content-center align-items-center"></i>
+  <span class="text-black text-opacity-75 fw-medium ms-2 text-center p-2">Calories</span>
+</div>
+<span class="font-sansSerif text-black fw-bold fs-5">320 kcal</span>
+ </div>
+  </div>
+  <div class="col-md-6">
+<div class=" box-nutrition bg-secondary  rounded-3 d-flex justify-content-between align-items-center px-3 py-2">
+
+<div class="d-flex flex-row">
+  <i class="fa-solid fa-dumbbell text-primary bg-primary bg-opacity-10 px-4 py-3 rounded-3 d-flex justify-content-center align-items-center"></i>
+  <span class="text-black text-opacity-75 fw-medium ms-2 text-center p-2">Protein</span>
+</div>
+<span class="font-sansSerif text-black fw-bold fs-5">12g</span>
+ </div>
+  </div>
+  <div class="col-md-6">
+    <div class=" box-nutrition bg-secondary  rounded-3 d-flex justify-content-between align-items-center px-3 py-2">
+
+<div class="d-flex flex-row">
+  <i class="fa-solid fa-wheat-awn text-warning bg-warning bg-opacity-10 px-4 py-3 rounded-3 d-flex justify-content-center align-items-center"></i>
+  <span class="text-black text-opacity-75 fw-medium ms-2 text-center p-2">Carbohydrates</span>
+</div>
+<span class="font-sansSerif text-black fw-bold fs-5">18g</span>
+ </div>
+  </div>
+  <div class="col-md-6">
+    <div class=" box-nutrition bg-secondary  rounded-3 d-flex justify-content-between align-items-center px-3 py-2">
+
+<div class="d-flex flex-row">
+  <i class="fa-solid fa-droplet text-danger bg-danger bg-opacity-10 px-4 py-3 rounded-3 d-flex justify-content-center align-items-center"></i>
+  <span class="text-black text-opacity-75 fw-medium ms-2 text-center p-2">Fat</span>
+</div>
+<span class="font-sansSerif text-black fw-bold fs-5">22g</span>
+ </div>
+  </div>
+  <div class="col-md-6">
+    <div class=" box-nutrition bg-secondary  rounded-3 d-flex justify-content-between align-items-center px-3 py-2">
+
+<div class="d-flex flex-row">
+  <i class="fa-solid fa-seedling text-success bg-success bg-opacity-10 px-4 py-3 rounded-3 d-flex justify-content-center align-items-center"></i>
+  <span class="text-black text-opacity-75 fw-medium ms-2 text-center p-2">Fiber</span>
+</div>
+<span class="font-sansSerif text-black fw-bold fs-5">3g</span>
+ </div>
+  </div>
+  <div class="col-md-6"><div class=" box-nutrition bg-secondary  rounded-3 d-flex justify-content-between align-items-center px-3 py-2">
+
+<div class="d-flex flex-row">
+  <i class="fa-solid fa-cube text-pink bg-pink bg-opacity-10 px-4 py-3 rounded-3 d-flex justify-content-center align-items-center"></i>
+  <span class="text-black text-opacity-75 fw-medium ms-2 text-center p-2">Sodium</span>
+</div>
+<span class="font-sansSerif text-black fw-bold fs-5">680mg</span>
+ </div>
+</div>
+
+
+ </div>
+  </div>
+
+
+<!--Chef'sTips-->
+  <div class="tab-pane fade" id="pills-chefstips" role="tabpanel" aria-labelledby="pills-chefstips-tab" tabindex="0">
+
+  <div class="d-flex flex-row mb-3 bg-warning bg-opacity-10 p-3 rounded-3 border-start border-warning border-3">
+ <i class="fa-solid fa-check-circle d-flex text-darkYellow flex-row justify-content-center align-items-center"></i>
+
+  <span class="font-sansSerif text-secondary ms-3 ">Use cold, crisp lettuce for best texture</span>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="d-flex flex-row mb-3  bg-warning bg-opacity-10 p-3 rounded-3 border-start border-warning border-3">
+ <i class="fa-solid fa-check-circle d-flex text-darkYellow flex-row justify-content-center align-items-center"></i>
+
+  <span class="font-sansSerif text-secondary ms-3">Make homemade croutons for better flavor</span>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="d-flex flex-row mb-3 bg-warning bg-opacity-10 p-3 rounded-3 border-start border-warning border-3">
+ <i class="fa-solid fa-check-circle d-flex text-darkYellow flex-row justify-content-center align-items-center"></i>
+
+  <span class="font-sansSerif text-secondary ms-3">Add grilled chicken for a complete meal</span>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="d-flex flex-row mb-3 bg-warning bg-opacity-10 p-3 rounded-3 border-start border-warning border-3">
+ <i class="fa-solid fa-check-circle d-flex text-darkYellow flex-row justify-content-center align-items-center"></i>
+
+  <span class="font-sansSerif text-secondary ms-3">Don't dress salad until ready to serve</span>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+    
+
+
+
+  
+
+
+
+
+
+<div class="border-top border-1 border-opacity-50 mt-auto pt-3">
+<button type="button "   onclick="ChangeRecipe()" class="  shadow-lg mainbtn mt-3 btn font-sansSerif text-white bg-gradient-orange d-flex justify-content-start align-items-center ms-2 text-nowrap py-3 px-3 rounded-4" style="width: fit-content;">
+  <i class="fa-solid fa-rotate text-white me-2"></i> 
+  Try Another Recipe
+</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+  
+</div>
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+    </div>
+  </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="JS/bootstrap.bundle.min.js"></script>
+<script src="JS/index.js"></script>
+  </body>
+</html>
